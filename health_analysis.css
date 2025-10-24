@@ -1,0 +1,127 @@
+/* Basic CSS for styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #006666;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+nav h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Form styles */
+.analysisForm {
+  background-color: #e6f2ff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.analysisForm h1 {
+  margin-bottom: 15px;
+  color: #006666;
+  text-align: center;
+}
+
+.analysisForm div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 80px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: calc(100% - 90px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #006666;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #004d4d;
+}
+
+/* Report section */
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #006666;
+}
+
+#report, #result {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#result {
+  min-height: 200px;
+}
+
+@media(max-width: 768px){
+  nav {
+    flex-direction: column;
+  }
+  #report, #result {
+    width: 95%;
+  }
+}
