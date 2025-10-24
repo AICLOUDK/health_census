@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "name": "Thyroid",
+      "symptoms": ["Fatigue", "Weight Gain", "Cold Sensitivity"],
+      "prevention": ["Regular Checkups", "Healthy Diet"],
+      "treatment": ["Medication", "Surgery"],
+      "imagesrc": "thyroid.jpg"
+    },
+    {
+      "name": "Diabetes",
+      "symptoms": ["Increased Thirst", "Frequent Urination", "Blurred Vision"],
+      "prevention": ["Healthy Diet", "Exercise"],
+      "treatment": ["Insulin", "Medication"],
+      "imagesrc": "diabetes.jpg"
+    },
+    {
+      "name": "High Blood Pressure",
+      "symptoms": ["Headache", "Dizziness", "Blurred Vision"],
+      "prevention": ["Reduce Salt Intake", "Exercise"],
+      "treatment": ["Medication", "Lifestyle Changes"],
+      "imagesrc": "bloodpressure.jpg"
+    }
+  ]
+}
